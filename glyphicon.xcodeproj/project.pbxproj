@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		093066351603461B00FE3678 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 093066341603461B00FE3678 /* Cocoa.framework */; };
+		0930663F1603461B00FE3678 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0930663D1603461B00FE3678 /* InfoPlist.strings */; };
+		093066411603461B00FE3678 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 093066401603461B00FE3678 /* main.m */; };
+		093066451603461B00FE3678 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 093066431603461B00FE3678 /* Credits.rtf */; };
+		093066481603461B00FE3678 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 093066471603461B00FE3678 /* AppDelegate.m */; };
+		0930664B1603461B00FE3678 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 093066491603461B00FE3678 /* MainMenu.xib */; };
+		093066521603465C00FE3678 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 093066511603465C00FE3678 /* QuartzCore.framework */; };
+		E5CAB5461604B32800ADA13C /* AppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5CAB5451604B32800ADA13C /* AppViewController.m */; };
+		E5CAB54B160631A700ADA13C /* ParameterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E5CAB54A160631A700ADA13C /* ParameterModel.m */; };
+		E5CAB54E1606322F00ADA13C /* ParameterObjectController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5CAB54D1606322F00ADA13C /* ParameterObjectController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		093066301603461B00FE3678 /* glyphicon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = glyphicon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		093066341603461B00FE3678 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		093066371603461B00FE3678 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		093066381603461B00FE3678 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		093066391603461B00FE3678 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0930663C1603461B00FE3678 /* glyphicon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "glyphicon-Info.plist"; sourceTree = "<group>"; };
+		0930663E1603461B00FE3678 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		093066401603461B00FE3678 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		093066421603461B00FE3678 /* glyphicon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "glyphicon-Prefix.pch"; sourceTree = "<group>"; };
+		093066441603461B00FE3678 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		093066461603461B00FE3678 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		093066471603461B00FE3678 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0930664A1603461B00FE3678 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		093066511603465C00FE3678 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E5CAB5441604B32800ADA13C /* AppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppViewController.h; sourceTree = "<group>"; };
+		E5CAB5451604B32800ADA13C /* AppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppViewController.m; sourceTree = "<group>"; };
+		E5CAB549160631A700ADA13C /* ParameterModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParameterModel.h; sourceTree = "<group>"; };
+		E5CAB54A160631A700ADA13C /* ParameterModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParameterModel.m; sourceTree = "<group>"; };
+		E5CAB54C1606322F00ADA13C /* ParameterObjectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParameterObjectController.h; sourceTree = "<group>"; };
+		E5CAB54D1606322F00ADA13C /* ParameterObjectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParameterObjectController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0930662D1603461B00FE3678 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093066521603465C00FE3678 /* QuartzCore.framework in Frameworks */,
+				093066351603461B00FE3678 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		093066251603461B00FE3678 = {
+			isa = PBXGroup;
+			children = (
+				0930663A1603461B00FE3678 /* glyphicon */,
+				093066331603461B00FE3678 /* Frameworks */,
+				093066311603461B00FE3678 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		093066311603461B00FE3678 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				093066301603461B00FE3678 /* glyphicon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		093066331603461B00FE3678 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				093066511603465C00FE3678 /* QuartzCore.framework */,
+				093066341603461B00FE3678 /* Cocoa.framework */,
+				093066361603461B00FE3678 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		093066361603461B00FE3678 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				093066371603461B00FE3678 /* AppKit.framework */,
+				093066381603461B00FE3678 /* CoreData.framework */,
+				093066391603461B00FE3678 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		0930663A1603461B00FE3678 /* glyphicon */ = {
+			isa = PBXGroup;
+			children = (
+				093066461603461B00FE3678 /* AppDelegate.h */,
+				093066471603461B00FE3678 /* AppDelegate.m */,
+				E5CAB5441604B32800ADA13C /* AppViewController.h */,
+				E5CAB5451604B32800ADA13C /* AppViewController.m */,
+				093066491603461B00FE3678 /* MainMenu.xib */,
+				E5CAB549160631A700ADA13C /* ParameterModel.h */,
+				E5CAB54A160631A700ADA13C /* ParameterModel.m */,
+				E5CAB54C1606322F00ADA13C /* ParameterObjectController.h */,
+				E5CAB54D1606322F00ADA13C /* ParameterObjectController.m */,
+				0930663B1603461B00FE3678 /* Supporting Files */,
+			);
+			path = glyphicon;
+			sourceTree = "<group>";
+		};
+		0930663B1603461B00FE3678 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0930663C1603461B00FE3678 /* glyphicon-Info.plist */,
+				0930663D1603461B00FE3678 /* InfoPlist.strings */,
+				093066401603461B00FE3678 /* main.m */,
+				093066421603461B00FE3678 /* glyphicon-Prefix.pch */,
+				093066431603461B00FE3678 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0930662F1603461B00FE3678 /* glyphicon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0930664E1603461B00FE3678 /* Build configuration list for PBXNativeTarget "glyphicon" */;
+			buildPhases = (
+				0930662C1603461B00FE3678 /* Sources */,
+				0930662D1603461B00FE3678 /* Frameworks */,
+				0930662E1603461B00FE3678 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = glyphicon;
+			productName = glyphicon;
+			productReference = 093066301603461B00FE3678 /* glyphicon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		093066271603461B00FE3678 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = mobydi;
+			};
+			buildConfigurationList = 0930662A1603461B00FE3678 /* Build configuration list for PBXProject "glyphicon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 093066251603461B00FE3678;
+			productRefGroup = 093066311603461B00FE3678 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0930662F1603461B00FE3678 /* glyphicon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0930662E1603461B00FE3678 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0930663F1603461B00FE3678 /* InfoPlist.strings in Resources */,
+				093066451603461B00FE3678 /* Credits.rtf in Resources */,
+				0930664B1603461B00FE3678 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0930662C1603461B00FE3678 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093066411603461B00FE3678 /* main.m in Sources */,
+				093066481603461B00FE3678 /* AppDelegate.m in Sources */,
+				E5CAB5461604B32800ADA13C /* AppViewController.m in Sources */,
+				E5CAB54B160631A700ADA13C /* ParameterModel.m in Sources */,
+				E5CAB54E1606322F00ADA13C /* ParameterObjectController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0930663D1603461B00FE3678 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0930663E1603461B00FE3678 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		093066431603461B00FE3678 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				093066441603461B00FE3678 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		093066491603461B00FE3678 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0930664A1603461B00FE3678 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0930664C1603461B00FE3678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0930664D1603461B00FE3678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0930664F1603461B00FE3678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "glyphicon/glyphicon-Prefix.pch";
+				INFOPLIST_FILE = "glyphicon/glyphicon-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		093066501603461B00FE3678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "glyphicon/glyphicon-Prefix.pch";
+				INFOPLIST_FILE = "glyphicon/glyphicon-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0930662A1603461B00FE3678 /* Build configuration list for PBXProject "glyphicon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0930664C1603461B00FE3678 /* Debug */,
+				0930664D1603461B00FE3678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0930664E1603461B00FE3678 /* Build configuration list for PBXNativeTarget "glyphicon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0930664F1603461B00FE3678 /* Debug */,
+				093066501603461B00FE3678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 093066271603461B00FE3678 /* Project object */;
+}
